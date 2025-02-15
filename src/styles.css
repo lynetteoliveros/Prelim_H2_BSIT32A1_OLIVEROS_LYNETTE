@@ -1,0 +1,50 @@
+/* Header styles */
+.header {
+  background-color: #add8e6; /* Light Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Center align the text */
+}
+
+/* Container for the columns */
+.container {
+  padding: 20px;
+}
+
+/* Style for the three columns layout */
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Space between columns */
+}
+
+/* Individual column styles */
+.column {
+  flex: 1; /* Equal width columns */
+  padding: 20px;
+  background-color: #e0f7fa; /* Lighter blue background for columns */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Column headings */
+.column h2 {
+  color: #007bb5; /* Darker blue for the headings */
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+/* Text and list styling within the columns */
+.column p,
+.column ul {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.column ul {
+  padding-left: 20px;
+}
+
+.column li {
+  list-style-type: disc;
+}
